@@ -1,0 +1,100 @@
+﻿@model List<Order>
+
+<div class="container mt-4">
+    <h1 class="mb-4">My Orders</h1>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var order in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5>Order ID: #@order.Id</h5>
+                            <p>Status: <span class="badge bg-primary">@order.Status</span></p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                @foreach (var item in order.Items)
+                                {
+                                    <div class="item">
+                                        <img src="@item.ImageUrl" alt="@item.ProductName" style="width: 50px; height: 50px;" />
+
+                                        <div>
+                                            <h4>@item.ProductName</h4>
+                                            <p>Price: $@item.Price</p>
+                                            <p>Quantity: @item.Quantity</p>
+                                        </div>
+                                    </div>
+                                }
+
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <p>Total: $@order.TotalPrice</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No orders found.</p>
+    }
+</div>
+
+<style>
+    .container {
+        font-family: Arial, sans-serif;
+    }
+    .tabs {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+    .tabs li {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .tabs .active {
+        background-color: #ddd;
+        font-weight: bold;
+    }
+    .orders {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .order-card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 5px;
+        width: 300px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .order-header, .order-footer {
+        margin-bottom: 15px;
+    }
+    .order-items .item {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .item img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .details-btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>

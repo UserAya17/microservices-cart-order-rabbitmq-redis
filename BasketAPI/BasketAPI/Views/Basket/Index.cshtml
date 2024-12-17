@@ -1,0 +1,142 @@
+﻿@model List<ShoppingCartItem>
+
+<div class="container">
+    <h2>Your Cart</h2>
+    @if (Model.Any())
+    {
+        <div class="cart-container">
+            @foreach (var item in Model)
+            {
+                <div class="cart-item">
+                    <div class="item-info">
+                        <img src="@item.ImageUrl" alt="@item.ProductName" width="100">
+                        <div>
+                            <h4>@item.ProductName</h4>
+                            <p>Price: $ @item.Price</p>
+                        </div>
+                    </div>
+                    <div class="item-actions">
+                        <div class="quantity-control">
+                            <button class="btn btn-sm btn-secondary" onclick="updateQuantity('@item.ProductId', -1)">-</button>
+                            <span id="quantity-@item.ProductId">@item.Quantity</span>
+                            <button class="btn btn-sm btn-secondary" onclick="updateQuantity('@item.ProductId', 1)">+</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm btn-danger" onclick="removeFromCart('@item.ProductId')">Remove From Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-total">
+                        <p>Total: $ @item.Quantity * @item.Price</p>
+                    </div>
+                </div>
+
+            }
+        </div>
+        <div class="cart-summary">
+            <h3>Total: $ @Model.Sum(i => i.Quantity * i.Price)</h3>
+        </div>
+    }
+    else
+    {
+        <p>Your cart is empty!</p>
+    }
+</div>
+
+<script>
+    function updateQuantity(productId, change) {
+        fetch(`/basket/updateQuantity/${productId}?change=${change}`, { method: 'POST' })
+            .then(response => location.reload());
+    }
+
+    function removeFromCart(productId) {
+        // First fetch the current quantity of the item from the UI
+        const quantityElement = document.querySelector(`#quantity-${productId}`);
+        const currentQuantity = parseInt(quantityElement.innerText, 10);
+
+        if (currentQuantity === 1) {
+            // If quantity is 1, delete the item entirely
+            fetch(`/basket/removeItem/${productId}`, { method: 'DELETE' })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload(); // Refresh the cart
+                    } else {
+                        console.error('Error deleting item');
+                    }
+                });
+        } else {
+            // Otherwise, decrement the quantity by 1
+            fetch(`/basket/updateQuantity/${productId}?change=-1`, { method: 'POST' })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload(); // Refresh the cart
+                    } else {
+                        console.error('Error decrementing quantity');
+                    }
+                });
+        }
+    }
+    function decrementQuantity(productId) {
+        fetch(`/basket/decrementQuantity/${productId}`, { method: 'POST' })
+            .then(response => location.reload());
+    }
+
+</script>
+
+
+<style>
+    .cart-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cart-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 5px;
+        gap: 20px;
+    }
+
+    .item-info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        flex: 2;
+    }
+
+        .item-info img {
+            width: 120px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+    .item-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        flex: 1;
+    }
+
+    .quantity-control {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .item-total {
+        flex: 1;
+        text-align: right;
+    }
+
+    .cart-summary {
+        text-align: right;
+        margin-top: 20px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+</style>

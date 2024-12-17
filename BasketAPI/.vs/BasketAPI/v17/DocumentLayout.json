@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\BasketAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\models\\basketcheckoutevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\models\\basketcheckoutevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\repositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\repositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|c:\\users\\dell\\documents\\basketapi\\basketapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A30D92D-E380-4AE9-9D65-7E545BCCF6D6}|BasketAPI\\BasketAPI.csproj|solutionrelative:basketapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1204970601:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1627928588:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1646721036:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "BasketAPI\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAHUAAADwY2ZmZqYnwCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:38:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "BasketAPI\\Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "BasketAPI\\Views\\Basket\\Index.cshtml",
+              "ViewState": "AgIAAAMAAABgPjMzMzMLwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T12:32:28.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BasketAPI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BasketAPI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:15:14.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketCheckoutEvent.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\BasketCheckoutEvent.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Models\\BasketCheckoutEvent.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\BasketCheckoutEvent.cs",
+              "RelativeToolTip": "BasketAPI\\Models\\BasketCheckoutEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:30:13.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BasketAPI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:41:21.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Repositories\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Repositories\\IBasketRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Repositories\\IBasketRepository.cs",
+              "RelativeToolTip": "BasketAPI\\Repositories\\IBasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:39:54.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Program.cs",
+              "RelativeToolTip": "BasketAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:37:40.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "BasketAPI\\Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:38:43.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BasketAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\appsettings.json",
+              "RelativeToolTip": "BasketAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T12:32:48.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "BasketAPI\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:39:44.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BasketAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BasketAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:19:44.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "BasketAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Dockerfile",
+              "RelativeToolTip": "BasketAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-14T12:30:47.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-14T12:30:53.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "BasketAPI\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\docker-compose.yml",
+              "RelativeToolTip": "BasketAPI\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-14T12:54:40.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BasketAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BasketAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T12:38:29.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BasketAPI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BasketAPI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T12:46:06.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BasketAPI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\BasketAPI\\BasketAPI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BasketAPI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T12:46:05.529Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

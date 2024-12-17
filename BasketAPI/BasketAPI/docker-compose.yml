@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  # Service Redis
+  basketdb:
+    image: redis:alpine
+    container_name: basketdb
+    ports:
+      - "6379:6379"
+    restart: always
+
+  # Service RabbitMQ
+  rabbitmq:
+    image: rabbitmq:3.11-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"       # Port RabbitMQ pour les messages
+      - "15672:15672"     # Port RabbitMQ Management UI
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    restart: always
+
+  # Service BasketAPI
+  basketapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: basketapi
+    ports:
+      - "8001:80"         # Expose votre service sur le port 8001
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CacheSettings__ConnectionString=basketdb:6379
+      - EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672
+    depends_on:
+      - basketdb
+      - rabbitmq
+    restart: always

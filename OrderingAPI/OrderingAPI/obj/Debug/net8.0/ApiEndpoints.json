@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "OrderingAPI.Controllers.OrderController",
+    "Method": "Index",
+    "RelativePath": "Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
